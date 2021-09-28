@@ -1,0 +1,8 @@
+name: voting-system
+runtime: nodejs
+description: Basic example on how to create a voting system using Twilio and DynamoDB
+template:
+  config:
+    aws:region:
+      description: The AWS region to deploy into
+      default: us-east-1

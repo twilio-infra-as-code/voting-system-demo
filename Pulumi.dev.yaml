@@ -1,0 +1,4 @@
+config:
+  aws:region: us-east-1
+  voting-system:dynamoClientAccessKeyId: aaaa
+  voting-system:dynamoClientSecretAccessKey: bbb

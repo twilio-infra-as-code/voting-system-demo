@@ -1,0 +1,23 @@
+{
+    "name": "voting-service",
+    "version": "0.0.1",
+    "license": "Apache-2.0",
+    "scripts": {
+        "build": "tsc",
+        "start-server": "export $(cat .env.staging | xargs) && ./node_modules/ts-node/dist/bin.js server.ts"
+    },
+    "dependencies": {
+        "@pulumi/aws": "^4.6.0",
+        "@pulumi/pulumi": "^3.3.1",
+        "axios": "^0.21.1",
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "lodash": "^4.17.21",
+        "twilio-pulumi-provider": "0.0.12"
+    },
+    "devDependencies": {
+        "@types/aws-sdk": "^2.7.0",
+        "@types/lodash": "^4.14.171",
+        "@types/node": "^8.10.66"
+    }
+}
