@@ -2,6 +2,8 @@
 
 A simple phone based voting system backed by Twilio Phone Numbers and Functions that receives the vote as a DTMF and stores it in AWS DynamobDB. 
 
+This solution is used for the webinar: [Building Communication Workflows with Twilio, Pulumi, and AWS](https://ahoy.twilio.com/devgen_webinar_workflows_NAMER-1)
+
 ## Pre-requisites 
 
 * [A Twilio account](https://www.twilio.com/try-twilio)
